@@ -37,10 +37,10 @@
 	 * @param {string | null} msg 
 	 */
 	function message(msg) {
-		if (msg != null) {
-			msgElem.textContent = msg;
-			msgElem.style.display = "block";
-		} else msgElem.style.display = "none";
+		//if (msg != null) {
+		//	msgElem.textContent = msg;
+		//	msgElem.style.display = "block";
+		//} else msgElem.style.display = "none";
 	}
 
 	const runBtn = $("run");
