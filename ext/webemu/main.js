@@ -145,13 +145,16 @@
 		};
 		fileupload.click();
 	};
-	fullscreenBtn.onclick = () => {
-		if (!document.fullscreenEnabled) {
-			message("Fullscreen is not supported in the current browsing context.");
-			return;
+	fullscreenBtn.onclick = async () => {
+		try {
+			await viewport.requestFullscreen({ navigationUI: "hide" });
+			// Optional: Provide feedback on successful entry to fullscreen
+			message("Entered fullscreen mode.");
+		} catch (error) {
+			message("Failed to enter fullscreen: " + error.message);
 		}
-		viewport.requestFullscreen({ navigationUI: "hide" });
 	};
+	
 	screenshotBtn.onclick = () => {
 		const elem = document.createElement("a");
 		elem.href = vm[0].screen_make_screenshot().src;
@@ -232,7 +235,6 @@
 			saveBtn.disabled = true;
 			pauseBtn.disabled = true;
 			restoreBtn.disabled = true;
-			fullscreenBtn.disabled = true;
 			screenshotBtn.disabled = true;
 			runBtn.title = "Start";
 			runBtn.style.backgroundImage = "url(\"res/start.svg\")";
@@ -354,7 +356,6 @@
 			saveBtn.disabled = false;
 			pauseBtn.disabled = false;
 			restoreBtn.disabled = false;
-			fullscreenBtn.disabled = false;
 			screenshotBtn.disabled = false;
 			runBtn.title = "Stop";
 			runBtn.style.backgroundImage = "url(\"res/stop.svg\")"
