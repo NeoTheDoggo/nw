@@ -146,14 +146,21 @@
 		fileupload.click();
 	};
 	fullscreenBtn.onclick = async () => {
+		console.log("Fullscreen button clicked");
+	
+		if (!viewport) {
+			console.error("Viewport element not found.");
+			return;
+		}
+	
 		try {
 			await viewport.requestFullscreen({ navigationUI: "hide" });
-			// Optional: Provide feedback on successful entry to fullscreen
-			message("Entered fullscreen mode.");
+			console.log("Requested fullscreen successfully");
 		} catch (error) {
+			console.error("Failed to enter fullscreen:", error);
 			message("Failed to enter fullscreen: " + error.message);
 		}
-	};
+	};	
 	
 	screenshotBtn.onclick = () => {
 		const elem = document.createElement("a");
