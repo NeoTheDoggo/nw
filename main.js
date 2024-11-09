@@ -6305,7 +6305,7 @@ https: //nettleweb.com/
         }
 
         function h() {
-            $ = null, q || (t.title = "nw.wafflynutria.com"), v.replaceState(void 0, "", "/"), P.setAttribute("content", ""), B.setAttribute("href", "https://nw.wafflynutria.com/")
+            $ = null, q || (t.title = "nw.wafflynutria.com"), v.replaceState(void 0, "", "/"), P.setAttribute("content", ""), B.setAttribute("href", "https://nettleweb.com/")
         }
 
         function p(t) {
@@ -6386,7 +6386,7 @@ https: //nettleweb.com/
             const oe = t.createElement("meta");
             oe.setAttribute("name", "keywords"), oe.setAttribute("content", "free,online,game,games,html,html5,flash,dos,n64,nes,snes,classic,emulator,chat,store,chatgpt"), E.appendChild(oe)
         }
-        P.setAttribute("name", "description"), P.setAttribute("content", "Play 3000+ free online HTML5, Flash and classic DOS games. Shop within our online store, and engage in real-time chat with our community. A one-stop platform for gaming, shopping, and socializing."), E.appendChild(P), B.setAttribute("rel", "canonical"), B.setAttribute("href", "https://nw.wafflynutria.com/"), E.appendChild(B); {
+        P.setAttribute("name", "description"), P.setAttribute("content", "Play 3000+ free online HTML5, Flash and classic DOS games. Shop within our online store, and engage in real-time chat with our community. A one-stop platform for gaming, shopping, and socializing."), E.appendChild(P), B.setAttribute("rel", "canonical"), B.setAttribute("href", "https://nettleweb.com/"), E.appendChild(B); {
             const {
                 _a: ie,
                 _b: ae,
@@ -6429,7 +6429,7 @@ https: //nettleweb.com/
                         case "whitespider.web.app":
                         case "whitespider.pages.dev":
                         case "whitespider.firebaseapp.com":
-                            return e.host = "nw.wafflynutria.com", e.pathname = "/", y.replace(e.href), !1
+                            return e.host = "nettleweb.com", e.pathname = "/", y.replace(e.href), !1
                     } {
                         const e = t[ye](ue);
                         if (null == e || e[pe](he) !== me) return !0
@@ -6481,11 +6481,11 @@ https: //nettleweb.com/
                 const Le = t.createElement("div");
                 return Le.style.padding = "15px", Le.textContent = "Click here to continue", Le.onclick = () => {
                         const e = t.createElement("embed");
-                        e.type = "text/plain", e.width = "1280", e.height = "720", e.src = "https://nw.wafflynutria.com/", f(e)
+                        e.type = "text/plain", e.width = "1280", e.height = "720", e.src = "https://nettleweb.com/", f(e)
                     }, C.innerHTML = "",
                     void C.appendChild(Le)
             }
-            if ("https://nw.wafflynutria.com/" !== y.origin) return void y.replace("https://nw.wafflynutria.com/")
+            if ("https://nettleweb.com/" !== y.origin) return void y.replace("https://nettleweb.com/")
         }
         Ie(N({
             appId: "1:176227430389:web:94270de43b7eb971c03abc",
@@ -6546,7 +6546,7 @@ https: //nettleweb.com/
         A.onclick = () => {
             A.innerHTML = "", A.style.display = "none"
         }, n("frame-close").onclick = () => {
-            T.innerHTML = "", S.style.display = "none", v.replaceState(void 0, "", "/"), P.setAttribute("content", ""), B.setAttribute("href", "https://nw.wafflynutria.com/")
+            T.innerHTML = "", S.style.display = "none", v.replaceState(void 0, "", "/"), P.setAttribute("content", ""), B.setAttribute("href", "https://nettleweb.com/")
         }, n("frame-newtab").onclick = () => {
             const e = T.firstElementChild;
             null != e && (T.innerHTML = "", S.style.display = "none", f(e))
@@ -6862,11 +6862,11 @@ https: //nettleweb.com/
                         behavior: "instant"
                     }), O.checked = !1, at.setAttribute("data-current", ""), it.appendChild(u("html5" === n ? c : "/player.html?name=" + encodeURIComponent(e) + "&type=" + n + "&url=" + encodeURIComponent(c))), $ = () => {
                         $ = null, bt.title = "Enable scroll lock",
-                            bt.style.backgroundImage = 'url("res/lock-open-w.svg")', it.innerHTML = "", j.style.overflow = "", q || (t.title = "nw.wafflynutria.com"), v.replaceState(void 0, "", "/"), P.setAttribute("content", ""), B.setAttribute("href", "https://nw.wafflynutria.com")
+                            bt.style.backgroundImage = 'url("res/lock-open-w.svg")', it.innerHTML = "", j.style.overflow = "", q || (t.title = "nw.wafflynutria.com"), v.replaceState(void 0, "", "/"), P.setAttribute("content", ""), B.setAttribute("href", "https://nettleweb.com/")
                     }, Ct.innerHTML = "", ft.innerHTML = "", dt.textContent = e, ut.textContent = n.toUpperCase(), ht.textContent = r.replace(/\,/g, ", ") || "None", pt.textContent = s(i), mt.textContent = l || "No information provided by the uploader.", xt.style.display = "block"; {
                         const n = i.toString(36),
                             r = "/" + n,
-                            o = "https://nw.wafflynutria.com" + r;
+                            o = "https://nettleweb.com/" + r;
                         q || (t.title = e + " - nw.wafflynutria.com"), v.replaceState(void 0, "", r), gt.textContent = n, ct.textContent = o, st.textContent = '<embed type="text/plain" width="1280" height="720" src="' + o + '" />', P.setAttribute("content", "Play " + e + " for free at NettleWeb waffly fork! 100% online; No plugins required. " + l.slice(0, 30).trim() + "..."), B.setAttribute("href", o)
                     }
                     lt.innerHTML = "Edit Game Info", lt.disabled = !1, lt.onclick = () => {
@@ -8346,7 +8346,7 @@ https: //nettleweb.com/
                         return o("Error: Page does not exist: " + w), !0
                 }
             })()) && (v.replaceState(void 0, "", "/"),
-                B.setAttribute("href", "https://nw.wafflynutria.com")), n("loading").remove(), j.style.display = "block"
+                B.setAttribute("href", "https://nettleweb.com/")), n("loading").remove(), j.style.display = "block"
         } {
             const lo = t.createElement.bind(t);
             Object.defineProperty(t, "createElement", {
